@@ -88,7 +88,7 @@ This is the demo page of our paper submitted to Interspeech 2025.
 [**Voicebox**:]
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/YOU1000000110_S0000046.redit.round-0 (16k).wav" type="audio/wav" />
+	<source src="wavs/YOU1000000110_S0000046.redit.round-0_16k.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**]
