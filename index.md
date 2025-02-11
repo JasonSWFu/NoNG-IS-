@@ -71,7 +71,39 @@ This is the demo page of our paper submitted to Interspeech 2025.
 
 ## RealEdit dataset
 
-### 2. Examples of **attention errors (hallucinations)** of VoiceCraft:
+### 2. Examples of **speech edits with background audio** (Voicebox's drawback):
+
+**Example 1: YOU1000000110_S0000046.wav**
+
+***Original transcript:*** argentina's trophy and **it's** a fifth world crown.. 
+
+***Target transcript:*** argentina's trophy and **victory is** a fifth world crown.
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/YOU1000000110_S0000046.wav" type="audio/wav" />
+</audio>
+
+[**Voicebox**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/YOU1000000110_S0000046.redit.round-0 (16k).wav" type="audio/wav" />
+</audio>
+
+[**VoiceCraft:**]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/YOU1000000110_S0000046_new_seed1.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/YOU1000000110_S0000046.round-0.wav" type="audio/wav" />
+</audio>
+
+### 3. Examples of **attention errors (hallucinations)** of VoiceCraft:
 
 **Example 1: 8173_294714_000033_000000.wav**
 
@@ -111,7 +143,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 =================================================================================================================
 
-### 3. Examples from LibriTTS
+### 4. Examples from LibriTTS (within RealEdit dataset)
 
 **Example 1: 116_288046_000004_000007.wav**
 
@@ -187,7 +219,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 	<source src="wavs/Post-quantization_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### 4. Examples from YouTube 
+### 5. Examples from YouTube (within RealEdit dataset)
 
 **Example 1: YOU1000000005_S0000035.wav**
 
@@ -263,7 +295,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 	<source src="wavs/Post-quantization_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### 5. Examples from Spotify 
+### 6. Examples from Spotify (within RealEdit dataset)
 
 **Example 1: show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.wav**
 
