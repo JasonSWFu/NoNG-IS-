@@ -128,7 +128,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
-[**VoiceCraft:**] yet anytime you and i question the schemes of the dog or dare to dig into any of their motives we're denounced as gooders. we're denounced as being against their humanitarian goals they say we're always against things we are never for anything.
+[**VoiceCraft:**] yet anytime you and i question the schemes of the dog or dare to dig into any of their motives **we're denounced as gooders** we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132_seed1.wav" type="audio/wav" />
