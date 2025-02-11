@@ -71,11 +71,11 @@ This is the demo page of our paper submitted to Interspeech 2025.
 
 ## RealEdit dataset
 
-### 2. Examples of **speech edits with background audio** (Voicebox's drawback):
+### 2. Examples of **editing speech with background audio**:
 
 **Example 1: YOU1000000110_S0000046.wav**
 
-***Original transcript:*** argentina's trophy and **it's** a fifth world crown.. 
+***Original transcript:*** argentina's trophy and **it's** a fifth world crown.
 
 ***Target transcript:*** argentina's trophy and **victory is** a fifth world crown.
 
@@ -85,13 +85,13 @@ This is the demo page of our paper submitted to Interspeech 2025.
 	<source src="wavs/YOU1000000110_S0000046.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox**:]
+[**Voicebox**:] (bad quality)
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046.redit.round-0_16k.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**]
+[**VoiceCraft:**] (generates speech with unintended long silences, and missing words)
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046_new_seed1.wav" type="audio/wav" />
@@ -107,16 +107,16 @@ This is the demo page of our paper submitted to Interspeech 2025.
 
 **Example 1: 8173_294714_000033_000000.wav**
 
-***Target transcript:*** promise that you will not ask me to borrow any money **from the bank for the bail** of you 
+***Target transcript:*** promise that you will not ask me to borrow any money **from the bank for the money** of you 
 for mister van brandt she rejoined and i accept your help gratefully.
 
-[**VoiceCraft:**]
+[**VoiceCraft:**] content: promise that you won't ask me to borrow any money of you from Mr. Van Branch, you rejoined and i accept your help gratefully.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]   
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000.redit.round-0.wav" type="audio/wav" />
@@ -126,9 +126,9 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 **Example 2: YOU1000000101_S0000132.wav**
 
-***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives were denounced as being against their humanitarian goals they say we are always against things we are never for anything
+***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
-[**VoiceCraft:**]
+[**VoiceCraft:**] content: yet anytime you and i question the schemes of the dog or dare to dig into any of their motives we're denounced as gooders. we're denounced as being against their humanitarian goals they say we're always against things we are never for anything.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132_seed1.wav" type="audio/wav" />
