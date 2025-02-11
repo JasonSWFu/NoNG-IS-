@@ -110,7 +110,7 @@ This is the demo page of our paper submitted to Interspeech 2025.
 ***Target transcript:*** promise that you will not ask me to borrow any money **from the bank for the money** of you 
 for mister van brandt she rejoined and i accept your help gratefully.
 
-[**VoiceCraft:**] content: promise that you won't ask me to borrow any money of you from Mr. Van Branch, you rejoined and i accept your help gratefully.
+[**VoiceCraft:**] promise that you will not ask me to borrow any money of you from mister van brandt you rejoined and i accept your help gratefully.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000_seed1.wav" type="audio/wav" />
@@ -128,7 +128,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
-[**VoiceCraft:**] content: yet anytime you and i question the schemes of the dog or dare to dig into any of their motives we're denounced as gooders. we're denounced as being against their humanitarian goals they say we're always against things we are never for anything.
+[**VoiceCraft:**] yet anytime you and i question the schemes of the dog or dare to dig into any of their motives we're denounced as gooders. we're denounced as being against their humanitarian goals they say we're always against things we are never for anything.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132_seed1.wav" type="audio/wav" />
