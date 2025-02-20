@@ -1,9 +1,6 @@
-# Introduction
+# Demo page of proposed VoiceNoNG
 
-This is the demo page of our paper submitted to Interspeech 2025.
-
-
-### 1. Examples of editing speech from movie/Youtube:
+### section 1. Examples of editing speech from movies/Youtube:
 
 **Example 1-1: [Spider-Man](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
 
@@ -13,13 +10,13 @@ This is the demo page of our paper submitted to Interspeech 2025.
 
 ***Target transcript:*** With **more GPU**, comes Great Responsibility.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Great_Responsibility.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Great_Responsibility_gen1.wav" type="audio/wav" />
@@ -34,13 +31,13 @@ This is the demo page of our paper submitted to Interspeech 2025.
 ***Target transcript:*** With more **computational resources**, comes Great Responsibility.
 
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Great_Responsibility.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Great_Responsibility_gen2.wav" type="audio/wav" />
@@ -56,22 +53,22 @@ This is the demo page of our paper submitted to Interspeech 2025.
 
 ***Target transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **expelled from** Hogwarts School of Witchcraft and Wizardry.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Potter.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Potter_gen1.wav" type="audio/wav" />
 </audio>
 (Can keep the British Accent and even successfully generate background music!)
 
-## RealEdit dataset
+## RealEdit dataset:
 
-### 2. Examples of **editing speech with background audio**:
+### section 2. Examples of **editing speech with background audio**:
 
 **Example 1: YOU1000000110_S0000046.wav**
 
