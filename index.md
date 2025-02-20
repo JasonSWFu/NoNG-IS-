@@ -1,6 +1,6 @@
 # Demo page of proposed VoiceNoNG
 
-### section 1. Examples of editing speech from movies/Youtube:
+### Section 1. Examples of editing speech from movies/YouTube:
 
 **Example 1-1: [Spider-Man](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
 
@@ -68,7 +68,7 @@
 
 ## RealEdit dataset:
 
-### section 2. Examples of **editing speech with background audio**:
+### Section 2. Examples of **editing speech with background audio**:
 
 **Example 1: YOU1000000110_S0000046.wav**
 
@@ -76,44 +76,44 @@
 
 ***Target transcript:*** argentina's trophy and **victory is** a fifth world crown.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox**:] (bad quality)
+**Voicebox**: (bad quality)
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046.redit.round-0_16k.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] (generates speech with unintended long silences, and missing words)
+**VoiceCraft:** (generates speech with unintended long silences, and missing words)
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046_new_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000110_S0000046.round-0.wav" type="audio/wav" />
 </audio>
 
-### 3. Examples of **attention errors (hallucinations)** of VoiceCraft:
+### Section 3. Examples of **attention errors (hallucinations)** of VoiceCraft:
 
 **Example 1: 8173_294714_000033_000000.wav**
 
 ***Target transcript:*** promise that you will not ask me to borrow any money **from the bank for the money** of you 
 for mister van brandt she rejoined and i accept your help gratefully.
 
-[**VoiceCraft:**] promise that you will not ask me to borrow any money of you from mister van brandt you rejoined and i accept your help gratefully.
+**VoiceCraft:** promise that you will not ask me to borrow any money of you from mister van brandt you rejoined and i accept your help gratefully.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]   
+**Proposed VoiceNoNG:**   
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000.redit.round-0.wav" type="audio/wav" />
@@ -125,22 +125,20 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
-[**VoiceCraft:**] yet anytime you and i question the schemes of the dog or dare to dig into any of their motives **we're denounced as gooders** we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
+**VoiceCraft:** yet anytime you and i question the schemes of the dog or dare to dig into any of their motives **we're denounced as gooders** we're denounced as being against their humanitarian goals they say we are always against things we are never for anything.
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 
-=================================================================================================================
-
-### 4. Examples from LibriTTS (within RealEdit dataset)
+### Section 4. Examples from LibriTTS (within the RealEdit dataset)
 
 **Example 1: 116_288046_000004_000007.wav**
 
@@ -148,31 +146,31 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** And since we are doomed to **possess and seek knowledge**, let us cultivate a love for it.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_116_288046_000004_000007.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_116_288046_000004_000007_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
@@ -186,37 +184,37 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** We might get **several colorful gemstones**, or owl eggs, or snake skins.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_2035_147960_000003_000004.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_2035_147960_000003_000004_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### 5. Examples from YouTube (within RealEdit dataset)
+### Section 5. Examples from YouTube (within the RealEdit dataset)
 
 **Example 1: YOU1000000005_S0000035.wav**
 
@@ -224,31 +222,31 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** and then the campaign content **is super detailed so** this one is really key to use as well.
 
-[**Original**:]
+**Original:**:
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_YOU1000000005_S0000035.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_YOU1000000005_S0000035.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_YOU1000000005_S0000035_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_YOU1000000005_S0000035.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_YOU1000000005_S0000035.redit.round-0.wav" type="audio/wav" />
@@ -262,37 +260,37 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** he hadn't expected **the new furniture** to have quite so many legs.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_YOU1000000167_S0000107.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_YOU1000000167_S0000107_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### 6. Examples from Spotify (within RealEdit dataset)
+### Section 6. Examples from Spotify (within the RealEdit dataset)
 
 **Example 1: show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.wav**
 
@@ -300,31 +298,31 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** And, like comment subscribe give me **your thoughts and any** feedback.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:**  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0.wav" type="audio/wav" />
@@ -338,31 +336,31 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ***Target transcript:*** In the pursuit of **calm serenity an escape from** stress ultimate fulfillment.
 
-[**Original**:]
+**Original:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.wav" type="audio/wav" />
 </audio>
 
-[**Proposed VoiceNoNG:**]  
+**Proposed VoiceNoNG:** 
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**VoiceCraft:**] 
+**VoiceCraft:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7_seed1.wav" type="audio/wav" />
 </audio>
 
-[**Voicebox:**]
+**Voicebox:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-[**Post-quantization:**]
+**Post-quantization:**
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0.wav" type="audio/wav" />
